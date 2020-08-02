@@ -1,0 +1,116 @@
+.bar {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #967aa1;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+.buttons {
+  padding-right: 0.5rem;
+}
+.logo {
+  height: 45px;
+}
+.name {
+  height: 35px;
+  padding-left: 0.5rem;
+}
+button {
+  margin-left: 0.5rem;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: "Avenir";
+  font-weight: 600;
+  font-size: 12px;
+  height: 35px;
+  width: 90px;
+}
+button:hover {
+  background-color: white;
+  color: #967aa1;
+}
+.content {
+  overflow: auto;
+  outline: none;
+  width: max-content;
+  height: max-content;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(94, 94, 94, 0.8);
+}
+.close {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  font-size: 38px;
+  color: #929292;
+  margin: 10px;
+}
+.close:hover {
+  background-color: transparent;
+  color: #5e5e5e;
+}
+.butdown {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#change {
+  color: #192a51;
+  margin-bottom: 40px;
+  padding: 0;
+}
+#fLetter {
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 100%;
+}
+.iconbut {
+  display: none;
+}
+@media only screen and (max-width: 734px) {
+  .name {
+    display: none;
+  }
+  .textbut {
+    display: none;
+  }
+  .iconbut {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 45px;
+  }
+}

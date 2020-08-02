@@ -1,0 +1,78 @@
+.window {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.modal_title {
+  text-align: center;
+  padding: 15px;
+  padding-top: 0;
+}
+h1 {
+  color: #192a51;
+  font-family: "Avenir";
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+h2 {
+  color: #5e5e5e;
+  word-spacing: 1px;
+  font-family: "Avenir";
+}
+
+.modal_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  padding-top: 10px;
+}
+#inputcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 0;
+}
+input {
+  height: 45px;
+  width: 90%;
+}
+i {
+  color: #967aa1;
+  margin: 10px;
+}
+#submit {
+  background-color: #aaa1c8;
+  height: 50px;
+  width: 100%;
+  color: white;
+}
+#submit:hover {
+  background-color: #967aa1;
+  color: white;
+}
+
+.modal_footer {
+  padding: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+h3 {
+  color: #929292;
+  word-spacing: 1px;
+  font-family: "Avenir";
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 734px) {
+  .window {
+    width: 90vw;
+  }
+}

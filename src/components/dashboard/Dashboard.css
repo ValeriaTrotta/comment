@@ -1,0 +1,28 @@
+.containerdash {
+  margin: auto;
+  margin-top: 0px;
+  padding: 0;
+  width: 100%;
+}
+.title {
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title > img {
+  width: 40rem;
+}
+
+@media only screen and (max-width: 735px) {
+  .title {
+    height: 100px;
+  }
+  .containerdash {
+    margin-top: 20px;
+  }
+  .title > img {
+    width: 30rem;
+  }
+}

@@ -1,0 +1,132 @@
+.page {
+  padding-top: 60px;
+  width: 100vw;
+  height: 100vh;
+}
+.banner {
+  height: 100vh;
+}
+#center {
+  font-family: "Avenir";
+}
+#center > h4 {
+  word-spacing: 1px;
+  position: relative;
+  color: #929292;
+  font-weight: 200;
+}
+#center > h5 {
+  color: #967aa1;
+  position: relative;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 970px) {
+  .banner {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-auto-rows: 700px;
+  }
+  #left {
+    background-image: url("../images/left1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  }
+  #center {
+    background-image: url("../images/center1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #right {
+    background-image: url("../images/right1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  #center > h4 {
+    font-size: 20px;
+    margin-top: 350px;
+  }
+  #center > h5 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 969px) and (min-width: 735px) {
+  .banner {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-auto-rows: 700px;
+  }
+  #left {
+    background-image: url("../images/left1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  }
+  #center {
+    background-image: url("../images/center1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #right {
+    background-image: url("../images/right1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  #center > h4 {
+    font-size: 15px;
+    margin-top: 350px;
+  }
+  #center > h5 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 734px) {
+  .banner {
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    height: 80vh;
+  }
+  #left {
+    background-image: url("../images/left2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-size: 100%;
+  }
+  #center {
+    background-image: url("../images/center2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #right {
+    background-image: url("../images/right2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+  }
+  #center > h4 {
+    font-size: 15px;
+    margin-top: 180px;
+  }
+  #center > h5 {
+    font-size: 20px;
+  }
+}
